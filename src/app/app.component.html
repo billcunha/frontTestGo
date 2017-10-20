@@ -23,6 +23,8 @@
       <tr>
         <th scope="col">#</th>
         <th scope="col">UNITID</th>
+        <th scope="col">OPEID</th>
+        <th scope="col">OPEID6</th>
         <th scope="col">INSTNM</th>
         <th scope="col">CITY</th>
         <th scope="col">STABBR</th>
@@ -32,6 +34,8 @@
       <tr *ngFor="let scordeCard of scoreCards; let i = index">
         <th scope="row">{{ i + 1 }}</th>
         <td>{{ scordeCard.UNITID }}</td>
+        <td>{{ scordeCard.OPEID }}</td>
+        <td>{{ scordeCard.OPEID6 }}</td>
         <td>{{ scordeCard.INSTNM }}</td>
         <td>{{ scordeCard.CITY }}</td>
         <td>{{ scordeCard.STABBR }}</td>
